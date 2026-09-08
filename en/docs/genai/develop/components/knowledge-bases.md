@@ -66,7 +66,7 @@ There are no Advanced Configurations on the Vector Knowledge Base itself. Every 
 
 ## WSO2 Cloud Knowledge Base
 
-The easiest way to add a cloud-hosted knowledge base. You first create the knowledge base in WSO2 Cloud, choosing the Vector Store, Embedding Provider, and Chunker yourself; it is provisioned and managed there. If the knowledge base is in your own cloud organization, you can connect to it with a single click. If it is not, you can still configure the connection manually.
+The easiest way to add a cloud-hosted knowledge base. You first [create the knowledge base in WSO2 Cloud](https://wso2.com/integration-platform/docs/manage/cloud/rag-ingestion/ingestion), choosing the Vector Store, Embedding Provider, and Chunker yourself; it is provisioned and managed there. If the knowledge base is in your own cloud organization, you can connect to it with a single click. If it is not, you can still configure the connection manually.
 
 ### Connect to an existing knowledge base
 
