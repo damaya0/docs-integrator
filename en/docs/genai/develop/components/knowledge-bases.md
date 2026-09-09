@@ -66,11 +66,9 @@ There are no Advanced Configurations on the Vector Knowledge Base itself. Every 
 
 ## WSO2 Cloud Knowledge Base
 
-The easiest way to add a cloud-hosted knowledge base. You first [create the knowledge base in WSO2 Cloud](https://wso2.com/integration-platform/docs/manage/cloud/rag-ingestion/ingestion), choosing the Vector Store, Embedding Provider, and Chunker yourself; it is provisioned and managed there. If the knowledge base is in your own cloud organization, you can connect to it with a single click. If it is not, you can still configure the connection manually.
+A Knowledge Base that stores chunks in WSO2 cloud. If you doesn't already have a WSO2 Cloud Knowledge base deployed in your organization, [create the knowledge base in WSO2 Cloud](https://wso2.com/integration-platform/docs/manage/cloud/rag-ingestion/ingestion). It is provisioned and managed there. 
 
 ### Connect to an existing knowledge base
-
-Unlike with the Vector and Azure AI Search knowledge bases, you don't set up the connection yourself. The credentials are supplied by the environment when the integration runs, so no secrets are stored in your project.
 
 Selecting **WSO2 Cloud Knowledge Base** lists the knowledge bases available in your WSO2 Cloud organization. You need to be signed in to WSO2 Cloud with a project selected for the list to appear.
 
@@ -79,6 +77,8 @@ Selecting **WSO2 Cloud Knowledge Base** lists the knowledge bases available in y
 Choose one from the **Existing WSO2 Cloud Knowledge Bases** list, and the create form opens with its service URL and credentials already filled in. Click **Save** to create the knowledge base instance.
 
 ![Create WSO2 Cloud Knowledge Base form with the Service URL and Knowledge Base Authentication Configuration fields already filled in from the selected knowledge base.](/img/genai/develop/components/knowledge-bases/06-wso2-cloud-prefilled-form.png)
+
+The credentials are supplied by the environment when the integration runs, so no secrets are stored in your project.
 
 ### Configure manually
 
